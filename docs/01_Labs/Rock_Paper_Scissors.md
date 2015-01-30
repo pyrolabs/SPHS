@@ -76,12 +76,53 @@ As we said earlier, our game requires us to compare possibilities. Before we get
 ### Great Job!
   Now you have learned about **Conditional Statements**, specifically the **If Statement**. You will find that `if` is the main piece of javascript we will need to make a simple version of Rock Paper Scissors.
 
+## Creating A Function
+Our `if` statements are pretty cool, but lets actually do something with them! In many programming languages, including Javascript, a grouped set of actions is called a **Function**. Functions often return a result of the actions that they made, so if you set a variable equal to that function, the variable will become what the function returned. That is a whole lot, but it is actually quite simple:
+1. Create a function that returns a value.
+
+  ```javascript
+  function sumOfOnes(){
+    var sum = 1 + 1;
+    return sum; //return value of sum variable
+  }
+  var output = sumOfOnes();//2
+  ```
+
+2. Create a new function that returns a value you enter, multiplied by 10. *Hint: "You enter" refers to an input parameter*
+
+  ```javascript
+  function times10(val){
+    var sum = val * 10;
+    return sum; //return value of sum variable
+  }
+  //times10 function with input parameter = 2
+  var output = times10(2);//20
+  ```
+3. Now use what you just learned with functions to create a comparison function. A good thing to compare would be strings since that is the format of the input we will receive from the user.
+
+  ```javascript
+  function checkForRock(choice){
+    if(choice == "rock"){
+      return "Good Choice!";
+    } else {
+      return "Maybe Next Time";
+    }
+  }
+  var output = checkForRock("rock");// Good Choice
+  var badChoice = checkForRock("scissors");//Maybe Next Time
+  ```
+
 ## User Input
 We will start by getting input from a user, who is the player of your RPS game. Javascript contains functionality to easily prompt users for input, so we will use that.
 
 1. Try typing `prompt()` into the JS tab of your pen.
 
 > You will notice that a popup comes up with nothing in it. This is due to the code you just wrote not being within a function. Any code not contained within a function will run when the javascript file is loaded. Codepen automatically reloads the page after you finish typing to show you the most updated version of your code in the preview.
+
+2. Now, use prompt to prompt your users for their choice. If you pass a string to `prompt()` then it will show the user that message when it is prompting them for their input.
+
+3. Use the response from the prompt as the input for your comparison function from before.
+
 
 ## Challenges
 * Add another choice (Remember to decide where it stands compared to other choices)
