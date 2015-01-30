@@ -12,7 +12,7 @@ Even though it is one of the most simple games of all time, we will go over the 
 
 ![Rock Paper Scissors Diagram](http://upload.wikimedia.org/wikipedia/commons/6/67/Rock-paper-scissors.svg)
 
-So, to translate that to what we would need out of a program that lets you play RPS we would need the following:
+So, to translate that to an RPS game program, we would need the following:
 * Input from User (player)
 * Comparison of player choices
 * Display of a winner
@@ -73,10 +73,14 @@ As we said earlier, our game requires us to compare possibilities. Before we get
   }
   ```
 
+### Great Job!
+  Now you have learned about **Conditional Statements**, specifically the **If Statement**. You will find that `if` is the main piece of javascript we will need to make a simple version of Rock Paper Scissors.
+
 ## User Input
 We will start by getting input from a user, who is the player of your RPS game. Javascript contains functionality to easily prompt users for input, so we will use that.
 
 1. Try typing `prompt()` into the JS tab of your pen.
+
 > You will notice that a popup comes up with nothing in it. This is due to the code you just wrote not being within a function. Any code not contained within a function will run when the javascript file is loaded. Codepen automatically reloads the page after you finish typing to show you the most updated version of your code in the preview.
 
 ## Challenges

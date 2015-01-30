@@ -1,0 +1,23 @@
+{
+  "title": "S.P.H.S. Computer Science",
+  "tagline": "Shared documentation of Severna Park High School Computer Science Club",
+  "author": "Scott Prue",
+  "image": "<base_url>img/app.png",
+  "theme": "daux-blue",
+  "template": "default",
+  "clean_urls": true,
+  "toggle_code": true,
+  "breadcrumbs": true,
+  "breadcrumb_separator": "Chevrons",
+  "date_modified": true,
+  "float": true,
+  "file_editor": false,
+  "ignore": {
+    "files": ["Work_In_Progress.md"],
+    "folders": ["99_Not_Ready"]
+  },
+  "google_analytics": "",
+  "links": {
+    "Email Scott": "mailto:prescottprue@gmail.com"
+  }
+}
