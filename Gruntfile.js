@@ -4,6 +4,7 @@ module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
 
   grunt.initConfig({
+    config: grunt.file.readJSON('config.json'),
     php: {
         watch:{
           files:'docs/**/*.md',
@@ -47,6 +48,20 @@ module.exports = function (grunt) {
         }
       }
     },
+    aws_s3:{
+      static:{
+        options: {
+          accessKeyId: '<%= config.AWSAccessKeyId %>',
+          secretAccessKey: '<%= config.AWSSecretKey %>',
+          bucket:'pyro-cdn',
+          uploadConcurrency: 30
+        },
+        files:[
+          {'action': 'upload', expand: true, cwd: 'static', src: ['**'], dest: 'sphs', differential:true}
+        ]
+      },
+
+    }
   });
 
   //grunt.registerTask('default', ['less', 'watch']);
