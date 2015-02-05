@@ -1,36 +1,20 @@
-## Platform
-### Site
-Pyro Platform is available on the web at [pyroplatform.com](http://pyroplatform.com)
+## [pyroplatform.com](http://pyroplatform.com)
+
+### Description
+
+Pyro is the quickest and easiest way to build Mobile Hybrid Apps right in your browser! Creating a new app is as simple as coming up with a name, and public hosting is available for **free** from the start.
 
 ### Documentation
 
-[Getting Started Guide](http://pyrolabs.readme.io/v1.0/docs/getting-started)
+##### [Getting Started Guide](http://pyrolabs.readme.io/v1.0/docs/getting-started)
 
-[Build A Landing Page Tutorial](http://pyrolabs.readme.io/v1.0/docs/add-a-landing-page)
-
-## Library
-
-### CDN
-
-The Pyro Library is available via our Content Delivery Network:
-
-[http://cdn.pyrolabs.io/library/current/pyro.js](http://cdn.pyrolabs.io/library/current/pyro.js)
-
-### Getting Started
-
-1. Include script tag in `index.html` file:
-
-  ```html
-    <script src="http://cdn.pyrolabs.io/library/current/pyro.js"></script>
-  ```
-
-### Documentation
-
-[API Methods](http://cdn.pyrolabs.io/library/current/docs/Pyro.html)
+##### [Tutorial: Build A Landing Page](http://pyrolabs.readme.io/v1.0/docs/add-a-landing-page)
 
 
+### Contact Info
 
-## Contact Info
+##### [Email](mailto:support@pyrolabs.io)
+
 Pyro
 
 info@pyrolabs.io

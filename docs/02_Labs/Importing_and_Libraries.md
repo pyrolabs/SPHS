@@ -1,11 +1,17 @@
-## Presentation
-[**PRESENTATION LINK**](http://slides.com/scottprue/building-lab#/)
+## **Lab 2**: Importing and Libraries
+
+##### Date: 1/28/15
+
+### Links
+
+##### [PRESENTATION](http://slides.com/scottprue/building-lab#/)
 
 *More Coming Soon...*
 
-## Details
-Date: 1/28/15
-
-## Related Links
+## Description
 
 *Coming soon...*
+
+## Topics
+
+* Importing Javascript/CSS

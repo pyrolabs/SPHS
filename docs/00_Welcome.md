@@ -13,4 +13,4 @@ Click one of the items on the left to view contents of that category. Go ahead a
 
 ### Updates
 
-This site will be updated at least once a week.
+This site will be updated on a regular basis, so be sure to check it regularly!

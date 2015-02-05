@@ -1,9 +1,15 @@
-# Rock Paper Scissors Lab
+## **Lab 4**: Rock Paper Scissors
 
+##### Date: *Unassigned*
+
+### Links
+##### [Codepen Link *Coming Soon... *](http://codepen.io/prescottprue)
+
+### Description
 
 Today you will be building your own version Rock Paper Scissors in Javascript! You will be allowed to make the game as simple or complex as you like, but we will start with the very basics.
 
-## Rules/Guidelines
+### Rules/Guidelines
 
 Even though it is one of the most simple games of all time, we will go over the rules real quick to make sure we are all on the same page:
 
@@ -21,7 +27,7 @@ After you have completed the most basic form of the game, then you will be allow
 
 **ASK QUESTIONS and WORK TOGETHER**
 
-## Setup
+### Setup
 
 To simplify the process of getting started you will be building your version of RPS on [Codepen](http://codepen.io).
 
@@ -33,7 +39,7 @@ After you have opened your Codepen and created a new pen move to the getting sta
 **Note:** If you feel comfortable with the import process and would like to build locally or on another platform, that will work as well. If you do this, ignore the references to codepen.
 
 
-## Getting Started
+### Getting Started
 Even though we have gone over a few examples of HTML, we will be using only Javascript for this game. If you would like more room, you can close the HTML and CSS tabs within Codepen.
 
 As we said earlier, our game requires us to compare possibilities. Before we get into comparing options, lets try comparing some numbers.
@@ -73,10 +79,10 @@ As we said earlier, our game requires us to compare possibilities. Before we get
   }
   ```
 
-### Great Job!
+#### Great Job!
   Now you have learned about **Conditional Statements**, specifically the **If Statement**. You will find that `if` is the main piece of javascript we will need to make a simple version of Rock Paper Scissors.
 
-## Creating A Function
+### Creating A Function
 Our `if` statements are pretty cool, but lets actually do something with them! In many programming languages, including Javascript, a grouped set of actions is called a **Function**. Functions often return a result of the actions that they made, so if you set a variable equal to that function, the variable will become what the function returned. That is a whole lot, but it is actually quite simple:
 1. Create a function that returns a value.
 
@@ -112,7 +118,7 @@ Our `if` statements are pretty cool, but lets actually do something with them! I
     var badChoice = checkForRock("scissors");//Maybe Next Time
   ```
 
-## User Input
+### User Input
 We will start by getting input from a user, who is the player of your RPS game. Javascript contains functionality to easily prompt users for input, so we will use that.
 
 1. Try typing `prompt()` into the JS tab of your pen.
@@ -124,7 +130,7 @@ We will start by getting input from a user, who is the player of your RPS game. 
 3. Use the response from the prompt as the input for your comparison function from before.
 
 
-## Challenges
+### Challenges
 * Add another choice (Remember to decide where it stands compared to other choices)
 * Use Firebase to make your rock paper scissors game playable across multiple users.
 * Associate choices to shortcut keys

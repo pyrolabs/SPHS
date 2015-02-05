@@ -8,7 +8,7 @@
     <meta name="description" content="Shared documentation of Severna Park High School Computer Science Club" />
     <meta name="author" content="Scott Prue">
     <meta charset="UTF-8">
-    <link rel="icon" href="../templates/default/themes/daux-blue/img/favicon-blue.png" type="image/x-icon">
+    <link rel="icon" href="../templates/default/themes/daux-sphs/img/favicon-blue.png" type="image/x-icon">
     <!-- Mobile -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
     <!-- Font -->
     <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
     <!-- CSS -->
-    <link href='../templates/default/themes/daux-blue/css/daux-blue.css' rel='stylesheet' type='text/css'>
+    <link href='../templates/default/themes/daux-sphs/css/daux-sphs.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
             <!-- Docs -->
@@ -39,7 +39,7 @@
                     </div>
                     <div id="sub-nav-collapse" class="sub-nav-collapse">
                         <!-- Navigation -->
-                        <ul class="nav nav-list"><li><a href="../Welcome.html">Welcome</a></li><li class="open"><a href="#" class="aj-nav folder">Labs</a><ul class="nav nav-list"><li><a href="../Labs/Importing_and_Libraries.html">Importing and Libraries</a></li><li class="active"><a href="../Labs/Rock_Paper_Scissors.html">Rock Paper Scissors</a></li></ul></li><li><a href="../Pyro.html">Pyro</a></li><li><a href="../Contact.html">Contact</a></li></ul>                                                    <div class="well well-sidebar">
+                        <ul class="nav nav-list"><li><a href="../Welcome.html">Welcome</a></li><li><a href="../Lectures.html">Lectures</a></li><li class="open"><a href="#" class="aj-nav folder">Labs</a><ul class="nav nav-list"><li><a href="../Labs/Starting_A_Project.html">Starting A Project</a></li><li><a href="../Labs/Importing_and_Libraries.html">Importing and Libraries</a></li><li class="active"><a href="../Labs/Rock_Paper_Scissors.html">Rock Paper Scissors</a></li></ul></li><li><a href="../Pyro.html">Pyro</a></li><li><a href="../Contact.html">Contact</a></li></ul>                                                    <div class="well well-sidebar">
 
                                 <!-- Links -->
                                 <a href="mailto:prescottprue@gmail.com" target="_blank">Email Scott</a><br>                                <a href="#" id="toggleCodeBlockBtn" onclick="toggleCodeBlocks();">Show Code Blocks Inline</a><br>
@@ -47,15 +47,15 @@
                                                             </div>
                                             </div>
                 </div>
-                <div class="right-column float-view content-area col-sm-9">
+                <div class="right-column  content-area col-sm-9">
                     <div class="content-page">
                         <article>
                                                             <div class="page-header sub-header clearfix">
                                     <h1><a href="../Labs">Labs</a> <i class="glyphicon glyphicon-chevron-right"></i> <a href="../Labs/Rock_Paper_Scissors.html">Rock Paper Scissors</a>                                                                            </h1>
                                     <span style="float: left; font-size: 10px; color: gray;">
-                                        Friday, January 30, 2015                                    </span>
+                                        Wednesday, February 4, 2015                                    </span>
                                     <span style="float: right; font-size: 10px; color: gray;">
-                                        10:48 AM                                    </span>
+                                        4:58 PM                                    </span>
                                 </div>
                             
                             <h1>Rock Paper Scissors Lab</h1>
@@ -123,29 +123,29 @@ alert('Condition is true');
 <ol>
 <li>
 <p>Create a function that returns a value.</p>
-<pre><code class="language-javascript">function sumOfOnes(){
-var sum = 1 + 1;
-return sum; //return value of sum variable
+<pre><code class="language-javascript">function sumOfOnes() {
+  var sum = 1 + 1;
+  return sum; //return value of sum variable
 }
 var output = sumOfOnes();//2</code></pre>
 </li>
 <li>
 <p>Create a new function that returns a value you enter, multiplied by 10. <em>Hint: "You enter" refers to an input parameter</em></p>
-<pre><code class="language-javascript">function times10(val){
-var sum = val * 10;
-return sum; //return value of sum variable
+<pre><code class="language-javascript">function times10(val) {
+  var sum = val * 10;
+  return sum; //return value of sum variable
 }
 //times10 function with input parameter = 2
 var output = times10(2);//20</code></pre>
 </li>
 <li>
 <p>Now use what you just learned with functions to create a comparison function. A good thing to compare would be strings since that is the format of the input we will receive from the user.</p>
-<pre><code class="language-javascript">function checkForRock(choice){
-if(choice == "rock"){
-  return "Good Choice!";
-} else {
-  return "Maybe Next Time";
-}
+<pre><code class="language-javascript">function checkForRock(choice) {
+  if(choice == "rock") {
+    return "Good Choice!";
+  } else {
+    return "Maybe Next Time";
+  }
 }
 var output = checkForRock("rock");// Good Choice
 var badChoice = checkForRock("scissors");//Maybe Next Time</code></pre>
