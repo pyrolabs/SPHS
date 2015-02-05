@@ -20,9 +20,10 @@ The Pyro Library is available via our Content Delivery Network:
 
 1. Include script tag in `index.html` file:
 
-```
-<script src="http://cdn.pyrolabs.io/library/current/pyro.js"></script>
-```
+  ```html
+    <script src="http://cdn.pyrolabs.io/library/current/pyro.js"></script>
+  ```
+
 ### Documentation
 
 [API Methods](http://cdn.pyrolabs.io/library/current/docs/Pyro.html)

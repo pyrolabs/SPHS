@@ -81,35 +81,35 @@ Our `if` statements are pretty cool, but lets actually do something with them! I
 1. Create a function that returns a value.
 
   ```javascript
-  function sumOfOnes(){
-    var sum = 1 + 1;
-    return sum; //return value of sum variable
-  }
-  var output = sumOfOnes();//2
+    function sumOfOnes() {
+      var sum = 1 + 1;
+      return sum; //return value of sum variable
+    }
+    var output = sumOfOnes();//2
   ```
 
 2. Create a new function that returns a value you enter, multiplied by 10. *Hint: "You enter" refers to an input parameter*
 
   ```javascript
-  function times10(val){
-    var sum = val * 10;
-    return sum; //return value of sum variable
-  }
-  //times10 function with input parameter = 2
-  var output = times10(2);//20
+    function times10(val) {
+      var sum = val * 10;
+      return sum; //return value of sum variable
+    }
+    //times10 function with input parameter = 2
+    var output = times10(2);//20
   ```
 3. Now use what you just learned with functions to create a comparison function. A good thing to compare would be strings since that is the format of the input we will receive from the user.
 
   ```javascript
-  function checkForRock(choice){
-    if(choice == "rock"){
-      return "Good Choice!";
-    } else {
-      return "Maybe Next Time";
+    function checkForRock(choice) {
+      if(choice == "rock") {
+        return "Good Choice!";
+      } else {
+        return "Maybe Next Time";
+      }
     }
-  }
-  var output = checkForRock("rock");// Good Choice
-  var badChoice = checkForRock("scissors");//Maybe Next Time
+    var output = checkForRock("rock");// Good Choice
+    var badChoice = checkForRock("scissors");//Maybe Next Time
   ```
 
 ## User Input

@@ -25,16 +25,14 @@ module.exports = function (grunt) {
           report: 'min'
         },
         files: {
-          "css/daux-blue.min.css": "less/daux-blue.less",
-          "css/daux-green.min.css": "less/daux-green.less",
-          "css/daux-navy.min.css": "less/daux-navy.less",
-          "css/daux-red.min.css": "less/daux-red.less"
+          "daux/css/daux-sphs.min.css": "daux/less/daux-sphs.less",
+          "daux/templates/default/themes/daux-sphs/css/daux-sphs.css": "daux/less/daux-sphs.less"
         }
       }
     },
     watch: {
       scripts: {
-        files: ['less/**/*.less'],
+        files: ['daux/less/**/*.less'],
         tasks: ['less'],
         options: {
           nospawn: true
@@ -64,6 +62,6 @@ module.exports = function (grunt) {
     }
   });
 
-  //grunt.registerTask('default', ['less', 'watch']);
+  grunt.registerTask('dev', ['less', 'watch']);
   grunt.registerTask('default', ['php:watch', 'watch:markdown']);
 };

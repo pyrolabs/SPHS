@@ -15,7 +15,7 @@ Code Highlighting
 .@{hljs-css-prefix}-lisp .@{hljs-css-prefix}-title,
 .@{hljs-css-prefix}-clojure .@{hljs-css-prefix}-built_in,
 .@{hljs-css-prefix}-nginx .@{hljs-css-prefix}-title {
-    color: @dark;
+    color: @syntax-main;
 }
 
 .@{hljs-css-prefix}-string,
@@ -113,9 +113,24 @@ Code Highlighting
 .@{hljs-css-prefix}-markdown .@{hljs-css-prefix}-strong,
 .@{hljs-css-prefix}-request,
 .@{hljs-css-prefix}-status {
-    font-weight: bold;
+    color: @syntax-keyword;
 }
-
+.@{hljs-css-prefix}-function {
+  .@{hljs-css-prefix}-title{
+    color:@syntax-name;
+  }
+  .@{hljs-css-prefix}-keyword  {
+    color:@syntax-function;
+  }
+  // .@{hljs-css-prefix}-params {
+  //   color:@syntax-params;
+  // }
+}
+.@{hljs-css-prefix}-tag {
+  .@{hljs-css-prefix}-title{
+    color:@syntax-keyword;
+  }
+}
 .@{hljs-css-prefix}-markdown .@{hljs-css-prefix}-emphasis {
     font-style: italic;
 }
