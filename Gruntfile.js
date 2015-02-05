@@ -58,10 +58,17 @@ module.exports = function (grunt) {
           {'action': 'upload', expand: true, cwd: 'static', src: ['**'], dest: 'sphs', differential:true}
         ]
       },
-
+    },
+    exec:{
+      static:{
+        command:'php daux/generate.php daux/global.json static',
+        stdout:false,
+      }
     }
   });
 
   grunt.registerTask('dev', ['less', 'watch']);
+  grunt.registerTask('upload', ['less', 'exec:static', 'aws_s3:static']);
   grunt.registerTask('default', ['php:watch', 'watch:markdown']);
+
 };
